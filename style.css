@@ -1,0 +1,425 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+.comtenir {
+    width: 1141px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav {
+    width: 398px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+.btn {
+    width: 137px;
+    height: 44px;
+    border-radius: 22px;
+    background: rgba(243, 96, 60, 1);
+    box-shadow: 0px 15px 15px -10px rgba(255, 159, 142, 1);
+    border: none;
+    color: white;
+
+}
+
+a:hover {
+    text-decoration: underline 5px blue;
+    font-weight: 900;
+    color: black;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+main h1 {
+    width: 445px;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: rgba(36, 45, 82, 1);
+    margin-top: 196px;
+
+}
+
+main p {
+    width: 350px;
+    font-family: Be Vietnam;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: grey;
+    margin-top: 16px;
+
+}
+
+main .btn {
+    margin-top: 40px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main2 img {
+    margin-top: 120px;
+}
+
+.section .div1 h1 {
+    width: 445px;
+    font-family: Be Vietnam;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -0.71px;
+}
+
+.section .div1 p {
+    width: 350px;
+    font-family: Be Vietnam;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    margin-top: 24px;
+
+}
+
+.h1 {
+    width: 540px;
+display: flex;
+align-items: center;
+margin-bottom: 19px;
+/* justify-content: space-around; */
+position: relative;
+}
+
+.list  .btn {
+    width: 69px;
+    height: 39px;
+    border-radius: 39px;
+  position: absolute;
+  right: 560px;
+}
+.list p{
+    width: 445px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(36, 45, 82, 1);
+}
+
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+}
+.leder{
+     
+    flex-direction: column;
+}
+.list{
+    margin-top: 10px;
+}
+.person{
+    width: 540px;
+    height: 230px;
+    background: rgba(250, 250, 250, 1);
+    margin-top: 95px;
+    text-align: center;
+    /* padding-left: 50px; */
+flex-direction: column;
+}
+.person p{
+    /* margin: 40px; */
+    width: 460px;
+    font-size: 16px;
+    color: grey;
+}
+.person img{
+    width: 72px;
+    height: 72px;
+}
+
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ gap: 40px;  
+}
+.p{
+    font-size: 25px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section1 h1{
+    text-align: center;
+    margin-top: 165px;
+}
+.section1 .btn{
+    margin-left: 709px;
+    margin-top: 63px;
+}
+.section4{
+    background-image: url(./Rectangle\ Copy\ 19.png);
+    width: 1440px;
+height: 220px;
+margin: 0 auto;
+margin-top: 161px;
+display: flex;
+align-items: center;
+justify-content: space-around ;
+
+}
+.section4 h1{
+    width: 445px;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+.section4 .btn{
+    background-color: white;
+    color: rgba(243, 96, 60, 1);
+    font-size: 13px;
+    font-weight: 700;
+}
+footer{
+    background-image: url(./Rectangle.png);
+    width: 1440px;
+    height: 220px;
+margin-top: 40px;
+    margin: 0 auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+.img{
+    font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em; /* kerakga qarab sozlang */
+}
+.fot1{
+height: 127px;
+padding-top: 61px;
+padding-left: 171px;
+}
+.fot1 .i{
+    margin-top: 83px;
+} 
+.nav1{
+    /* margin-left: 279px; */
+    /* margin-bottom: 20000px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 13px;
+    position: absolute;
+    top: 2090px;
+    left: 570px;
+    color: white;
+}
+.nav1 a:hover{
+    color: white;
+}
+.nav2{
+    left: 760px;
+
+}
+.final{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 165px;
+  position: absolute;
+  left: 1100px;
+  top: 2090px;
+}
+.final input{
+  width: 200px;
+height: 44px;
+angle: 0 deg;
+opacity: 1;
+border-radius: 22px;
+
+
+}
+.final button{
+    width: 64px;
+}
+footer p{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: grey;
+    margin-top: 60px;
+    margin-right: 145px;
+}
+/* ============================= */
+/* 📱 Responsive section */
+/* ============================= */
+@media (max-width: 1024px) {
+  .contenir {
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  main {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  main h1, main p {
+    width: 100%;
+  }
+
+  .main2 img {
+    width: 90%;
+    margin-top: 50px;
+  }
+
+  .section {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .section .div1 h1, 
+  .section .div1 p, 
+  .list p {
+    width: 100%;
+  }
+
+  .h1 {
+    justify-content: center;
+  }
+
+  .list .btn {
+    position: static;
+    margin-right: 10px;
+  }
+
+  .leder {
+    width: 100%;
+    align-items: center;
+  }
+
+  .all {
+    flex-direction: column;
+  }
+
+  .person {
+    width: 90%;
+  }
+
+  .section1 .btn {
+    margin: 40px auto;
+    display: block;
+  }
+
+  .section4 {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .section4 h1 {
+    width: 80%;
+  }
+
+  footer {
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .fot1 {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .fot1 .i {
+    margin-top: 30px;
+  }
+
+  .nav1, .nav2, .final {
+    position: static;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .final {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .final input {
+    width: 250px;
+  }
+
+  footer p {
+    margin: 20px auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  nav a {
+    font-size: 14px;
+  }
+
+  .btn {
+    width: 120px;
+    height: 40px;
+  }
+
+  main h1 {
+    font-size: 36px;
+  }
+
+  .section .div1 h1 {
+    font-size: 28px;
+  }
+
+  .section4 h1 {
+    font-size: 28px;
+  }
+}
